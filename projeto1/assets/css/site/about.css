@@ -1,0 +1,33 @@
+.about#content-about {
+	background-color: #b1a7a6;
+}
+
+.about#content-about .infos img{
+	height: 100px;
+}
+
+.about#content-about .infos img .i1 {
+	border-radius: 10px;
+}
+
+.about#content-about .infos .mobile{
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.about#content-about .tt1 {
+		width: 100%;
+	}
+
+	.about#content-about .pf {
+		width: 100%;
+	}
+
+	.about#content-about .m1 {
+		width: 100%;
+	}
+
+	.about#content-about .infos .desktop{
+		display: none;
+	}
+}
